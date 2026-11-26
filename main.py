@@ -3,16 +3,21 @@
 The line is a fortune-cookie prophecy aimed at a software engineer.
 The joke: rubber-duck debugging is the engineer's oldest trick --
 you talk your problem out loud to a duck and the answer appears.
-Here the duck goes one step further and steals the glory, showing
-up in standup to take the credit for the fix you did yourself.
-It lands on a first read because the twist (the duck taking credit)
+Here the duck goes one step further and steals the glory, getting
+promoted for the fix you did yourself.
+It lands on a first read because the twist (the duck getting promoted)
 sits at the very end, where a fortune cookie's punchline belongs.
+The line stays short and declarative, in fortune-cookie voice, and
+every word earns its place: the setup names the ritual every
+engineer knows, and the payoff lands on the one word that stings
+most -- the duck outranking you. No stock phrasing from a mug or a
+conference slide; the joke is the promotion, not the quack.
 """
 
 import os
 
-# The fortune itself: a prophecy, a rubber duck, and a stolen standup.
-LINE = "You will explain your bug to a rubber duck, and the duck will take the credit in standup."
+# The fortune itself: a prophecy, a rubber duck, and a stolen promotion.
+LINE = "You will explain your bug to a rubber duck. The duck will get promoted."
 
 
 def validate(text):
